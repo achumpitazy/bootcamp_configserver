@@ -31,7 +31,7 @@ jobs:
         name: Package
         path: staging
 
-    - uses: actions/checkout@feature/CI
+    - uses: actions/checkout@master
     - name: docker login
       uses: docker/login-action@f054a8b539a109f9f41c372932f1ae047eff08c9
       with:
