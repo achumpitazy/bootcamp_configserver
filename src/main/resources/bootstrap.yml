@@ -1,0 +1,19 @@
+server:
+  port: 8891
+
+spring:
+  application:
+    name: configserver
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/achumpitazy/bootcamp_config_data.git
+          username: achumpitazy
+          password: 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
+          default-label: master
+          
+  security:
+    user:
+      name: consumer
+      password: consumer
