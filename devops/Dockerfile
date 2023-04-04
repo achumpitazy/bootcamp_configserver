@@ -1,4 +1,4 @@
-FROM openjdk:17-oracle
+FROM openjdk:11
 
 RUN mkdir -p /opt/logs
 WORKDIR /opt/logs
